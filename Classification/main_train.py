@@ -20,7 +20,7 @@ import torchvision.datasets as datasets
 import torchvision.models as models
 import torchvision.transforms as transforms
 from torch.utils.data.sampler import SubsetRandomSampler
-from trainer import train, validate
+from trainer import *
 from utils import *
 from utils import NormalizeByChannelMeanStd
 
